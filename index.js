@@ -1,3 +1,5 @@
+'use strict'
+
 class WebpackCustomizer {
   constructor(options) {
     this.options = Object.assign({
@@ -11,3 +13,5 @@ class WebpackCustomizer {
     compiler.plugin(this.options.hook, this.options.action)
   }
 }
+
+module.exports = WebpackCustomizer
