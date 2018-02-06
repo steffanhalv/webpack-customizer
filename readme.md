@@ -23,5 +23,5 @@ plugins: [
 ]
 ```
 
-Hooks reference:
+Hook api:
 https://webpack.js.org/api/compiler/#event-hooks
